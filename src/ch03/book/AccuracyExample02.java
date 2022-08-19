@@ -1,6 +1,6 @@
 package ch03.book;
 
-public class AccuracyExample2 {
+public class AccuracyExample02 {
 	public static void main(String[] args) {
 		int apple = 1;
 		
