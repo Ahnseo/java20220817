@@ -26,6 +26,7 @@ public class C04Random {
 			System.out.println("주사위 5 입니다");
 		}else {
 			System.out.println("주사위 6 입니다");
-		}		
+		}
+		System.out.println("집에 가자!!!");
 	}
 }
