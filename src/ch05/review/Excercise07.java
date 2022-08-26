@@ -1,4 +1,4 @@
-package ch05review;
+package ch05.review;
 
 import java.util.Arrays;
 import java.util.Iterator;
