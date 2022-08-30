@@ -40,9 +40,10 @@ public class ch05Excercise09다시하기 {
 			}else if(selectNum == 3){
 				//작성위치
 				System.out.println("점수 리스트");
-				for(int item : scores) {
-					System.out.println(item);
-				}				
+				for(int i = 0; i < studentNum; i++) {//학생수 만큼 늘려나갈때 배열을 생성해야함
+					System.out.print("scores["+i+"] : "+ scores[i]);
+				
+				}			
 				
 			}else if(selectNum == 4){
 				//작성위치
