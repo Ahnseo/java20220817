@@ -3,6 +3,8 @@ package ch06.lecture.p04Static;
 public class C01Static {
 	public static void main(String[] args) {
 		// Static :  인스턴스를 만들지않고 , 클래스를 사용할때 
+		// *외부 클래스의 인스턴스 생성없이 내부 클래스를 접근하기 위한 용도*
+		
 		//스태틱 메소드 호출 -> 스태틱필드 -> 스태틱메소드 적용 
 		
 		//스태틱맴버 : 스태틱필드 + 스태틱메소드   , 인스턴스맴버에 참조 불가능 ㅌㅌㅌ

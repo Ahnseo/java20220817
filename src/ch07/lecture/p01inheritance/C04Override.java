@@ -1,7 +1,7 @@
 package ch07.lecture.p01inheritance;
 
 public class C04Override {
-	//오버로딩
+	//오버라이드
 	
 	Object o1 =new Object();
 	String o2 = new String("java");
@@ -12,4 +12,4 @@ public class C04Override {
 	System.out.println(System.identityHashCode(o1)); //참조값
 	System.out.println(System.identityHashCode(o2)); //참조값
 	}
-}
+
