@@ -12,7 +12,7 @@ public class BindingTest {
 		System.out.println(person1.x);
 		
 	}
-}
+},
 
 	
 
