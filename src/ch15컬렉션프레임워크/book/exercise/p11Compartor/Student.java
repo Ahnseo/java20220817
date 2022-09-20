@@ -1,6 +1,7 @@
 package ch15컬렉션프레임워크.book.exercise.p11Compartor;
 
 public class Student {
+	public static final String Sex = null;
 	public String id;
 	public int score;
 	

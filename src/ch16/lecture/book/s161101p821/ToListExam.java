@@ -1,0 +1,28 @@
+package ch16.lecture.book.s161101p821;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ToListExam {
+	public static void main(String[] args) {
+		List<Student> totalList = Arrays.asList(
+				new Student("홍길동", 10, Student.Sex.MALE),
+				new Student("김수애", 6, Student.Sex.FEMALE),
+				new Student("신용권", 10, Student.Sex.MALE),
+				new Student("박수미", 6, Student.Sex.FEMALE)
+				);
+		//남학생들만 묶어 List 생성
+		List<Student> maleList = totalList.stream()
+				.filter(s->s.getSex()==Student.Sex.MALE)
+				.collect(Collectors.toList());
+		maleList.stream()
+		.forEach(s -> System.out.println( s.getName() ));
+		
+		System.out.println();
+		
+		//여학생들만 묶어 HashSet생성
+		Set<Student> femaleSet = totalList.stream()
+					
+		
+	}
+}
