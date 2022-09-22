@@ -23,8 +23,6 @@ public class C03BufferedOutputStream {
 		
 		System.out.println("그냥 스트림 사용 종료:" + (end - start) + "ms");
 		
-		
-		
 	}
 
 	private static void bufferedStream() throws Exception {

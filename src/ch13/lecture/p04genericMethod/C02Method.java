@@ -12,9 +12,4 @@ public class C02Method {
 		List<String> list3 = Arrays.asList("java","spring");
 		List<Integer> list4 = Arrays.asList(99,100,101);
 	}
-	
-	
-	private void method1() {
-
-	}
 }
