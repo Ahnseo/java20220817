@@ -6,6 +6,7 @@ public class C01Optional {
 	public static void main(String[] args) {
 		
 		//Optional class : 컨테이너에 element가 있는지 없는지 ,return boolean  
+		//Optional extends Object  : Optional 은 Object 에 상속되어있다.
 		
 		Optional<String> obj1 = Optional.empty();
 		Optional<String> obj2 = Optional.of("java");
