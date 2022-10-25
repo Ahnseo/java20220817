@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class C02ExceptionHandling {
+public class C02ExceptionHandling_try_catch_finally {
 	public static void main(String[] args) {
 		OutputStream os = null;
 		InputStream is = null;
@@ -35,7 +35,6 @@ public class C02ExceptionHandling {
 					is.close();
 				}
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			

@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class C03ExceptionHandling {
+public class C03ExceptionHandling_try_with_catch {
 	public static void main(String[] args) {
 		//try - with - resources(java 7부터 가능)
 		//try - with - resources 와 사용가능한 타입은 AutoCloseable 만 가능
