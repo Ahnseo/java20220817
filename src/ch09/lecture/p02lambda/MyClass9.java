@@ -20,6 +20,7 @@ public class MyClass9 {
 		
 		
 	}
+	
 	public static void setAll(int[] arr, IntUnaryOperator gen ) {
 		for(int i = 0; i<arr.length; i++) {
 			arr[i] =gen.applyAsInt(i);

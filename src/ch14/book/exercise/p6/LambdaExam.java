@@ -20,17 +20,17 @@ public class LambdaExam {
 		return sum/students.length;
 		
 	}
-	
+// /////////////////////////////////////////////////////////////////////////////////////////////////
 public static void main(String[] args) {
-	double englishAvg = avg( s -> s.getEnglishScore() ); //객체생성s 그리고 static메소드getEnglishScore()
+	double englishAvg = avg( s -> s.getEnglishScore() ); // s 객체생성 하고 -> s.getEnglishScore()
 	System.out.println("영어평균:" + englishAvg);
 		
 	double mathAvg = avg( s -> s.getMathScore() );
 	System.out.println("수학평균:" + mathAvg);
 		
 }
-	
-
+// Student class를 Type으로 사용하고,
+// get set 메소드를 위의 main메소드에 적용하려고 만들었구나.
 public static class Student{
 	
 	private String name;
